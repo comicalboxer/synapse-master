@@ -872,70 +872,70 @@ const teamMembers = [
     "Vaanya Kshatriya",
     "President",
 
-    "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=85"
+    "CORE TEAM/Vaanya.png"
   ],
 
   [
     "Kshreeraja Alegaonkar",
     "Vice President",
 
-    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=85"
+    "CORE TEAM/Kshreeraja.png"
   ],
 
   [
     "Pranvikant Mishra",
     "Joint Secretary",
 
-    "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1000&q=85"
+    "CORE TEAM/Pranvi And Swarit.png"
   ],
 
   [
     "Swarit Somani",
     "Joint Secretary",
 
-    "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=1000&q=85"
+    "CORE TEAM/Pranvi And Swarit.png"
   ],
 
   [
     "Ananya Bhusari",
     "Treasurer",
 
-    "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1000&q=85"
+    "CORE TEAM/Ananya.png"
   ],
 
   [
     "Ibrahim Knot",
     "Tech Head",
 
-    "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?auto=format&fit=crop&w=1000&q=85"
+    "CORE TEAM/ibrahim.png"
   ],
 
   [
     "Shreeya Huddar",
     "Design Co-Head",
 
-    "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=85"
+    "CORE TEAM/shreeya and swara.png"
   ],
 
   [
     "Swara Lande",
     "Design Co-Head",
 
-    "https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?auto=format&fit=crop&w=1000&q=85"
+    "CORE TEAM/shreeya and swara.png"
   ],
 
   [
     "Praneel Chabbria",
     "Speaker Relations",
 
-    "https://images.unsplash.com/photo-1504257432389-52343af06ae3?auto=format&fit=crop&w=1000&q=85"
+    "CORE TEAM/Praneel.png"
   ],
 
   [
     "Ria Jogi",
     "Social Media Head",
 
-    "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=85"
+    "CORE TEAM/Ria.png"
   ]
 
 ];
