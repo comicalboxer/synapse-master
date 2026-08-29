@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Synapse is the official AI club, bringing together students to learn, build, and explore the future of artificial intelligence."
+    />
+
+    <title>SYNAPSE | Official AI Club</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="page-shell">
+
+      <!-- =========================================
+           RIGHT SIDE NAVIGATION
+      ========================================== -->
+
+      <aside class="side-nav" aria-label="Section navigation">
+
+        <a
+          class="side-nav-brand"
+          href="#home"
+          aria-label="Synapse home"
+        >
+          <img
+            src="Logo/SYNAPSE_LOGOS__1_-removebg-preview.png"
+            alt="Synapse logo"
+          />
+
+          <span>SYNAPSE.</span>
+        </a>
+
+        <div class="side-nav-scroll">
+
+          <a
+            class="side-nav-link active"
+            href="#home"
+          >
+            <span class="nav-index">01</span>
+            <span>Home</span>
+          </a>
+
+          <a
+            class="side-nav-link"
+            href="#team"
+          >
+            <span class="nav-index">02</span>
+            <span>Team</span>
+          </a>
+
+          <a
+            class="side-nav-link"
+            href="#projects"
+          >
+            <span class="nav-index">03</span>
+            <span>Projects</span>
+          </a>
+
+          <a
+            class="side-nav-link"
+            href="#events"
+          >
+            <span class="nav-index">04</span>
+            <span>Events</span>
+          </a>
+
+          <a
+            class="side-nav-link"
+            href="#gallery"
+          >
+            <span class="nav-index">05</span>
+            <span>Gallery</span>
+          </a>
+
+        </div>
+
+        <span
+          class="side-nav-line"
+          aria-hidden="true"
+        ></span>
+
+      </aside>
+
+
+      <!-- =========================================
+           MAIN CONTENT
+      ========================================== -->
+
+      <main>
+
+        <!-- =========================================
+             HERO
+        ========================================== -->
+
+        <section
+          id="home"
+          class="hero section"
+        >
+          <div class="container hero-grid">
+
+            <div class="hero-copy reveal">
+
+              <div class="eyebrow">
+                Official AI Club
+              </div>
+
+              <h1>
+                <span class="gradient-text">
+                  SYNAPSE
+                </span>
+              </h1>
+
+              <p class="subtitle">
+                A student community for learning,
+                building, and exploring artificial
+                intelligence, machine learning,
+                and responsible innovation.
+              </p>
+
+              <div
+                class="hero-scroll-hint"
+                aria-hidden="true"
+              >
+                <span></span>
+                <small>
+                  Scroll to explore
+                </small>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+
+        <!-- =========================================
+             TEAM
+        ========================================== -->
+
+        <section
+          id="team"
+          class="section"
+        >
+          <div class="container">
+
+            <div class="section-heading reveal">
+
+              <span class="eyebrow">
+                Meet the crew
+              </span>
+
+              <h2>
+                People powering Synapse
+              </h2>
+
+            </div>
+
+
+            <div class="team-grid reveal">
+
+              <div
+                class="team-stage"
+                aria-live="polite"
+              >
+
+                <!-- LEFT IMAGE -->
+
+                <article
+                  class="team-image team-image-left"
+                  data-position="left"
+                >
+                  <img
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=85"
+                    alt="Synapse team placeholder"
+                  />
+
+                  <span
+                    class="team-image-shade"
+                  ></span>
+                </article>
+
+
+                <!-- CENTER IMAGE -->
+
+                <article
+                  class="team-image team-image-center"
+                  data-position="center"
+                >
+
+                  <img
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=85"
+                    alt="Synapse team placeholder"
+                  />
+
+                  <div class="team-feature">
+
+                    <span
+                      class="role-tag"
+                      id="team-role"
+                    >
+                      President
+                    </span>
+
+                    <h3 id="team-name">
+                      Vaanya Kshatriya
+                    </h3>
+
+                  </div>
+
+                </article>
+
+
+                <!-- RIGHT IMAGE -->
+
+                <article
+                  class="team-image team-image-right"
+                  data-position="right"
+                >
+
+                  <img
+                    src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=900&q=85"
+                    alt="Synapse team placeholder"
+                  />
+
+                  <span
+                    class="team-image-shade"
+                  ></span>
+
+                </article>
+
+              </div>
+
+
+              <!-- TEAM CONTROLS -->
+
+              <div
+                class="team-controls"
+                aria-label="Team carousel controls"
+              >
+
+                <button
+                  type="button"
+                  class="team-arrow"
+                  id="team-prev"
+                  aria-label="Previous team member"
+                >
+                  <span aria-hidden="true">
+                    ←
+                  </span>
+                </button>
+
+
+                <div
+                  class="team-dots"
+                  aria-label="Team carousel position"
+                >
+
+                  <button
+                    type="button"
+                    class="team-dot is-active"
+                    aria-label="Show team member 1"
+                  ></button>
+
+                  <button
+                    type="button"
+                    class="team-dot"
+                    aria-label="Show team member 2"
+                  ></button>
+
+                  <button
+                    type="button"
+                    class="team-dot"
+                    aria-label="Show team member 3"
+                  ></button>
+
+                  <button
+                    type="button"
+                    class="team-dot"
+                    aria-label="Show team member 4"
+                  ></button>
+
+                  <button
+                    type="button"
+                    class="team-dot"
+                    aria-label="Show team member 5"
+                  ></button>
+
+                  <button
+                    type="button"
+                    class="team-dot"
+                    aria-label="Show team member 6"
+                  ></button>
+
+                  <button
+                    type="button"
+                    class="team-dot"
+                    aria-label="Show team member 7"
+                  ></button>
+
+                  <button
+                    type="button"
+                    class="team-dot"
+                    aria-label="Show team member 8"
+                  ></button>
+
+                  <button
+                    type="button"
+                    class="team-dot"
+                    aria-label="Show team member 9"
+                  ></button>
+
+                  <button
+                    type="button"
+                    class="team-dot"
+                    aria-label="Show team member 10"
+                  ></button>
+
+                </div>
+
+
+                <button
+                  type="button"
+                  class="team-arrow"
+                  id="team-next"
+                  aria-label="Next team member"
+                >
+                  <span aria-hidden="true">
+                    →
+                  </span>
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+
+        <!-- =========================================
+             PROJECTS
+        ========================================== -->
+
+        <section
+          id="projects"
+          class="section dark-panel"
+        >
+
+          <div class="container">
+
+            <div class="section-heading reveal">
+
+              <span class="eyebrow">
+                What we build
+              </span>
+
+              <h2>
+                Featured AI projects
+              </h2>
+
+            </div>
+
+
+            <div class="project-grid reveal">
+
+              <article class="project-card">
+
+                <div
+                  class="project-visual visual-one"
+                ></div>
+
+                <div class="project-body">
+
+                  <div class="project-meta">
+
+                    <span class="project-type">
+                      AI Product
+                    </span>
+
+                    <span class="project-year">
+                      2026
+                    </span>
+
+                  </div>
+
+                  <h3>
+                    NeuroNest
+                  </h3>
+
+                  <p>
+                    A wellness-focused planning app
+                    that helps students organize tasks,
+                    habits, and study patterns
+                    intuitively.
+                  </p>
+
+                  <ul class="tag-list">
+
+                    <li>Figma</li>
+                    <li>React</li>
+                    <li>Firebase</li>
+
+                  </ul>
+
+                  <a
+                    href="#"
+                    class="text-link"
+                  >
+                    View project
+                  </a>
+
+                </div>
+
+              </article>
+
+
+              <article class="project-card">
+
+                <div
+                  class="project-visual visual-two"
+                ></div>
+
+                <div class="project-body">
+
+                  <div class="project-meta">
+
+                    <span class="project-type">
+                      Machine Learning
+                    </span>
+
+                    <span class="project-year">
+                      2025
+                    </span>
+
+                  </div>
+
+                  <h3>
+                    SignalSense
+                  </h3>
+
+                  <p>
+                    An AI-powered campus insight
+                    dashboard turning event and club
+                    activity data into actionable
+                    trends.
+                  </p>
+
+                  <ul class="tag-list">
+
+                    <li>Python</li>
+                    <li>TensorFlow</li>
+                    <li>UI/UX</li>
+
+                  </ul>
+
+                  <a
+                    href="#"
+                    class="text-link"
+                  >
+                    View project
+                  </a>
+
+                </div>
+
+              </article>
+
+
+              <article class="project-card">
+
+                <div
+                  class="project-visual visual-three"
+                ></div>
+
+                <div class="project-body">
+
+                  <div class="project-meta">
+
+                    <span class="project-type">
+                      AI Experience
+                    </span>
+
+                    <span class="project-year">
+                      2025
+                    </span>
+
+                  </div>
+
+                  <h3>
+                    Fluxify
+                  </h3>
+
+                  <p>
+                    A vibrant portfolio platform for
+                    student creators, showcasing
+                    projects, skills, and creative work.
+                  </p>
+
+                  <ul class="tag-list">
+
+                    <li>Next.js</li>
+                    <li>Tailwind</li>
+                    <li>Motion</li>
+
+                  </ul>
+
+                  <a
+                    href="#"
+                    class="text-link"
+                  >
+                    View project
+                  </a>
+
+                </div>
+
+              </article>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- =========================================
+             EVENTS
+        ========================================== -->
+
+        <section
+          id="events"
+          class="section"
+        >
+
+          <div class="container">
+
+            <div class="section-heading reveal">
+
+              <span class="eyebrow">
+                Our momentum
+              </span>
+
+              <h2>
+                Events & experiences
+              </h2>
+
+            </div>
+
+
+            <div
+              class="event-timeline reveal"
+            >
+
+              <article class="event-item">
+
+                <div class="event-date">
+
+                  <span>APR</span>
+
+                  <strong>
+                    18
+                  </strong>
+
+                </div>
+
+                <div class="event-content">
+
+                  <span class="event-type">
+                    Workshop
+                  </span>
+
+                  <h3>
+                    AI Design Sprint
+                  </h3>
+
+                  <p>
+                    Hands-on product thinking and
+                    prototyping for human-centered
+                    AI interfaces.
+                  </p>
+
+                </div>
+
+              </article>
+
+
+              <article class="event-item">
+
+                <div class="event-date">
+
+                  <span>MAR</span>
+
+                  <strong>
+                    09
+                  </strong>
+
+                </div>
+
+                <div class="event-content">
+
+                  <span class="event-type">
+                    Hackathon
+                  </span>
+
+                  <h3>
+                    Build for Campus
+                  </h3>
+
+                  <p>
+                    A rapid-fire coding challenge
+                    focused on meaningful
+                    student-first solutions.
+                  </p>
+
+                </div>
+
+              </article>
+
+
+              <article class="event-item">
+
+                <div class="event-date">
+
+                  <span>JAN</span>
+
+                  <strong>
+                    27
+                  </strong>
+
+                </div>
+
+                <div class="event-content">
+
+                  <span class="event-type">
+                    Keynote
+                  </span>
+
+                  <h3>
+                    Creative Tech Talks
+                  </h3>
+
+                  <p>
+                    Industry speakers sharing their
+                    journey across design systems,
+                    startups, and code.
+                  </p>
+
+                </div>
+
+              </article>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+        <!-- =========================================
+             GALLERY
+        ========================================== -->
+
+        <section
+          id="gallery"
+          class="section gallery-section"
+        >
+
+          <div class="container">
+
+            <div class="section-heading reveal">
+
+              <span class="eyebrow">
+                Moments from the club
+              </span>
+
+              <h2>
+                Synapse in motion
+              </h2>
+
+            </div>
+
+          </div>
+
+
+          <div
+            class="marquee-wrap reveal"
+            aria-label="Club gallery slider"
+          >
+
+            <div class="marquee-track">
+
+              <div class="gallery-set">
+
+                <article
+                  class="gallery-card"
+                  style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80');"
+                ></article>
+
+                <article
+                  class="gallery-card"
+                  style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80');"
+                ></article>
+
+                <article
+                  class="gallery-card"
+                  style="background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=900&q=80');"
+                ></article>
+
+                <article
+                  class="gallery-card"
+                  style="background-image: url('https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80');"
+                ></article>
+
+                <article
+                  class="gallery-card"
+                  style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80');"
+                ></article>
+
+              </div>
+
+
+              <div
+                class="gallery-set"
+                aria-hidden="true"
+              >
+
+                <article
+                  class="gallery-card"
+                  style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80');"
+                ></article>
+
+                <article
+                  class="gallery-card"
+                  style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80');"
+                ></article>
+
+                <article
+                  class="gallery-card"
+                  style="background-image: url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=900&q=80');"
+                ></article>
+
+                <article
+                  class="gallery-card"
+                  style="background-image: url('https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=900&q=80');"
+                ></article>
+
+                <article
+                  class="gallery-card"
+                  style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80');"
+                ></article>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+      </main>
+
+
+      <!-- =========================================
+           FOOTER
+      ========================================== -->
+
+      <footer class="site-footer">
+
+        <div class="container footer-grid reveal">
+
+          <div>
+
+            <span class="eyebrow">
+              Stay connected
+            </span>
+
+            <h2>
+              Build the future with Synapse AI.
+            </h2>
+
+          </div>
+
+
+          <div
+            class="social-links"
+            aria-label="Social media links"
+          >
+
+            <!-- Instagram -->
+
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+            >
+
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <rect
+                  x="3"
+                  y="3"
+                  width="18"
+                  height="18"
+                  rx="5"
+                ></rect>
+
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="4.2"
+                ></circle>
+
+                <circle
+                  cx="17.3"
+                  cy="6.8"
+                  r="1"
+                ></circle>
+              </svg>
+
+              <span>
+                Instagram
+              </span>
+
+            </a>
+
+
+            <!-- GitHub -->
+
+            <a
+              href="https://github.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="GitHub"
+            >
+
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 2.8a9.2 9.2 0 0 0-2.9 17.93c.46.08.63-.2.63-.44v-1.7c-2.58.56-3.12-1.1-3.12-1.1-.42-1.07-1.03-1.35-1.03-1.35-.84-.57.06-.56.06-.56.93.07 1.42.96 1.42.96.83 1.42 2.18 1.01 2.71.77.08-.6.33-1.01.59-1.24-2.06-.23-4.23-1.03-4.23-4.59 0-1.01.36-1.84.96-2.49-.1-.23-.42-1.18.09-2.46 0 0 .79-.25 2.58.95a8.92 8.92 0 0 1 4.7 0c1.79-1.2 2.58-.95 2.58-.95.51 1.28.19 2.23.09 2.46.6.65.96 1.48.96 2.49 0 3.57-2.17 4.36-4.24 4.58.34.29.63.84.63 1.69v2.52c0 .24.17.52.64.43A9.2 9.2 0 0 0 12 2.8Z"
+                ></path>
+              </svg>
+
+              <span>
+                GitHub
+              </span>
+
+            </a>
+
+
+            <!-- Email -->
+
+            <a
+              href="mailto:hello@synapse.club"
+              aria-label="Email"
+            >
+
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+
+                <rect
+                  x="3"
+                  y="5"
+                  width="18"
+                  height="14"
+                  rx="2.5"
+                ></rect>
+
+                <path
+                  d="m4.5 7 7.5 6 7.5-6"
+                ></path>
+
+              </svg>
+
+              <span>
+                Email
+              </span>
+
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="footer-bottom container">
+
+          <p>
+            ©
+            <span id="year"></span>
+            Synapse. All rights reserved.
+          </p>
+
+        </div>
+
+      </footer>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
