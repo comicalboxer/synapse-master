@@ -872,70 +872,70 @@ const teamMembers = [
     "Vaanya Kshatriya",
     "President",
 
-    "./assets/team/vaanya.jpeg"
+    "./CORE%20TEAM/Vaanya.jpeg"
   ],
 
   [
     "Kshreeraja Alegaonkar",
     "Vice President",
 
-    "./assets/team/kshreeraja.jpeg"
+    "./CORE%20TEAM/Kshreeraja.jpeg"
   ],
 
   [
     "Pranvikant Mishra",
     "Joint Secretary",
 
-    "./assets/team/pranvi.png"
+    "./CORE%20TEAM/Pranvi.jpeg"
   ],
 
   [
     "Swarit Somani",
     "Joint Secretary",
 
-    "./assets/team/swarit.png"
+    "./CORE%20TEAM/Swarit.png"
   ],
 
   [
     "Ananya Bhusari",
     "Treasurer",
 
-    "./assets/team/ananya.png"
+    "./CORE%20TEAM/Ananya.png"
   ],
 
   [
     "Ibrahim Knot",
     "Tech Head",
 
-    "./assets/team/ibrahim.png"
+    "./CORE%20TEAM/Ibrahim.jpg"
   ],
 
   [
     "Shreeya Huddar",
     "Design Co-Head",
 
-    "./assets/team/shreeya.png"
+    "./CORE%20TEAM/Shreeya.jpeg"
   ],
 
   [
     "Swara Lande",
     "Design Co-Head",
 
-    "./assets/team/swara.jpeg"
+    "./CORE%20TEAM/swara.jpeg"
   ],
 
   [
     "Praneel Chabbria",
     "Speaker Relations",
 
-    "./assets/team/praneel.jpeg"
+    "./CORE%20TEAM/Praneel.jpeg"
   ],
 
   [
     "Ria Jogi",
     "Social Media Head",
 
-    "./assets/team/ria.png"
+    "./CORE%20TEAM/ria.jpg"
   ]
 
 ];
