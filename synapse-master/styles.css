@@ -1485,14 +1485,10 @@ body::after {
 
   animation:
     marquee
-    30s linear
+    75s linear
     infinite;
-}
 
-
-.marquee-wrap:hover
-.marquee-track {
-  animation-play-state: paused;
+  will-change: transform;
 }
 
 

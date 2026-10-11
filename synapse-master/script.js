@@ -863,6 +863,81 @@ sections.forEach(
 
 
 /* =========================================
+   GALLERY MARQUEE
+========================================= */
+
+const galleryImages = [
+  "WhatsApp Image 2026-08-03 at 20.23.31.jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.32 (1).jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.32.jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.33 (1).jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.33.jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.34.jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.35 (1).jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.35.jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.37 (1).jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.37.jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.38 (1).jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.38 (2).jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.38.jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.39 (1).jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.39.jpeg",
+  "WhatsApp Image 2026-08-03 at 20.23.40.jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.11.jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.12 (1).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.12 (2).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.12.jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.13 (1).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.13 (2).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.13 (3).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.13.jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.14 (1).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.14 (2).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.14 (3).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.14.jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.15 (1).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.15 (2).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.15 (3).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.15.jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.16 (1).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.16.jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.17 (1).jpeg",
+  "WhatsApp Image 2026-08-22 at 19.22.17.jpeg"
+];
+
+const galleryTrack = document.querySelector(".marquee-track");
+
+if (galleryTrack) {
+  const allGalleryImages = [
+    ...galleryImages,
+    ...galleryImages
+  ];
+
+  const firstSet = document.createElement("div");
+  firstSet.className = "gallery-set";
+
+  const secondSet = document.createElement("div");
+  secondSet.className = "gallery-set";
+  secondSet.setAttribute("aria-hidden", "true");
+
+  allGalleryImages.forEach((imageName, index) => {
+    const card = document.createElement("article");
+    card.className = "gallery-card";
+    card.style.backgroundImage = `url("./Synapse%20phto/${encodeURI(imageName)}")`;
+
+    if (index >= galleryImages.length) {
+      secondSet.appendChild(card);
+    } else {
+      firstSet.appendChild(card);
+    }
+  });
+
+  galleryTrack.innerHTML = "";
+  galleryTrack.appendChild(firstSet);
+  galleryTrack.appendChild(secondSet);
+}
+
+/* =========================================
    TEAM MEMBERS
 ========================================= */
 
